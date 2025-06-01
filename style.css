@@ -51,18 +51,7 @@ body {
 
 /* โค้ดอื่น ๆ ของคุณก็ใส่ไว้ตามนี้ */
 /* พื้นหลัง */
-.background-layer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('photo/63141.jpg');
-  background-size: 100% auto;   /* กว้างเต็มที่ สูงปรับตามอัตราส่วน */
-  background-position: center top; /* แนวนอนกลาง ภาพเริ่มจากบน */
-  background-repeat: no-repeat;
-  z-index: -1;
-  /* สีพื้นหลังเวลาพื้นที่ว่าง */
+
 }
 
 /* ฟอนต์และจัดตำแหน่ง */
