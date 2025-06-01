@@ -1,0 +1,134 @@
+/* ตั้งค่าพื้นหลังด้วยรูปภาพให้ .background-layer */
+.background-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('photo/63141.jpg');
+  background-size: 100% auto;   /* กว้างเต็มที่ สูงปรับตามอัตราส่วน */
+  background-position: center top; /* แนวนอนกลาง ภาพเริ่มจากบน */
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* สีพื้นหลังเวลาพื้นที่ว่าง */
+}
+
+
+/* ฟ้อนต์และตั้งค่าพื้นหลังสำรอง */
+body {
+  font-family: 'Itim', cursive;
+  background-color: #000; /* กรณีรูปไม่โหลด */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* เมนูนำทาง */
+.navbar {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* โปร่งแสง */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ff4081;
+}
+
+/* โค้ดอื่น ๆ ของคุณก็ใส่ไว้ตามนี้ */
+/* พื้นหลัง */
+.background-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('photo/63141.jpg');
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-color: black;
+}
+
+/* ฟอนต์และจัดตำแหน่ง */
+body {
+  font-family: 'Itim', cursive;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* กล่องล็อกอิน */
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  position: relative;
+  z-index: 1; /* ให้อยู่บนพื้นหลัง */
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input[type="password"],
+.login-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"] {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #ff1493;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ff1493;
+}
