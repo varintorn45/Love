@@ -5,11 +5,12 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(' photo/63141.jpg'); /* หรือ photo/63141.jpg */
-  background-size: cover;
-  background-position: center;
+  background-image: url('photo/63141.jpg');
+  background-size: 100% auto;   /* กว้างเต็มที่ สูงปรับตามอัตราส่วน */
+  background-position: center top; /* แนวนอนกลาง ภาพเริ่มจากบน */
   background-repeat: no-repeat;
   z-index: -1;
+  /* สีพื้นหลังเวลาพื้นที่ว่าง */
 }
 
 
@@ -56,11 +57,12 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(' photo/63141.jpg'); /* หรือ photo/63141.jpg */
-  background-size: cover;
-  background-position: center;
+  background-image: url('photo/63141.jpg');
+  background-size: 100% auto;   /* กว้างเต็มที่ สูงปรับตามอัตราส่วน */
+  background-position: center top; /* แนวนอนกลาง ภาพเริ่มจากบน */
   background-repeat: no-repeat;
   z-index: -1;
+  /* สีพื้นหลังเวลาพื้นที่ว่าง */
 }
 
 /* ฟอนต์และจัดตำแหน่ง */
