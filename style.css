@@ -15,6 +15,7 @@
 
 
 
+
 /* ฟ้อนต์และตั้งค่าพื้นหลังสำรอง */
 body {
   font-family: 'Itim', cursive;
@@ -49,10 +50,21 @@ body {
   color: #ff4081;
 }
 
-/* โค้ดอื่น ๆ ของคุณก็ใส่ไว้ตามนี้ */
-/* พื้นหลัง */
-
+.background-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('photo/63141.jpg');
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-color: black;
 }
+
+
 
 /* ฟอนต์และจัดตำแหน่ง */
 body {
